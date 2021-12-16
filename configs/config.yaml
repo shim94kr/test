@@ -3,7 +3,7 @@
 # specify here default training configuration
 defaults:
   - _self_
-  - trainer: default.yaml
+  - trainer: ddp.yaml
   - model: mnist_model.yaml
   - datamodule: mnist_datamodule.yaml
   - callbacks: default.yaml
